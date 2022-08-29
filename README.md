@@ -23,8 +23,7 @@ To add a new bot on Telegram, start a conversation with [@BotFather](https://tel
 
 To obtain the *chat_id* of the chat you want your bot to be in, add your freshly created bot to a group, send a message to this group starting with `/`, go to *api.telegram.org/bot`token`/getUpdates* and there you can get the *chat_id* ([I followed this guide](https://stackoverflow.com/questions/32423837/telegram-bot-how-to-get-a-group-chat-id)). 
 
-
-
+Add in following url *https://www.2dehands.be/lrp/api/search?attributesByKey[]=Language%3Aall-languages&limit=100&offset=0&query= `the product you are looking for`&searchInTitleAndDescription=true&sortBy=SORT_INDEX&sortOrder=DECREASING&viewOptions=list-view*, the product you are looking for, copy the *url* and paste in into your *config.py* file.
 
 ## Usage
 Start the bot by running the *script.py* file.
